@@ -5,16 +5,25 @@
         <div class="left">
             <div class="logo-container">
                 <img src="{{asset('home/img/anna_logo_grey.png')}}" />
-                <h1 class="fs-3">
+                <h1 class="fs-1">
                     <p>University College of Engineering Tindivanam</p>
-                    
+
                 </h1>
             </div>
 
             <div class="description">
-                <p>University College of Engineering Tindivanam (A Constituent College of Anna University , Chennai ) has been established by the Government of Tamil nadu in the year 2008 with four departments namely Civil Engineering, Computer science and engineering, Electronics and Communication Engineering, Information Technology. With the Goverment of Tamilnadu initiative Civil Engineering(Tamil Medium) course is started at 2010. UCE Tindivanam has an intake of 270 students.
-           This university campus, is a place for budding engineers to widen their technical knowledge through which they could enhance their innovative ideas by effectively accessing all available technical resources found inside the campus.
-          This campus provides a great support to technical education by bringing in a number of well experienced experts from various disciplines as staff members. Most of the staff members here, being doctoral holders in their relative fields, are packed with information so that the student’s thirst for research is easily quenched.</p>
+                <p>University College of Engineering Tindivanam (A Constituent College of Anna University , Chennai )
+                    has been established by the Government of Tamil nadu in the year 2008 with four departments namely
+                    Civil Engineering, Computer science and engineering, Electronics and Communication Engineering,
+                    Information Technology. With the Goverment of Tamilnadu initiative Civil Engineering(Tamil Medium)
+                    course is started at 2010. UCE Tindivanam has an intake of 270 students.
+                    This university campus, is a place for budding engineers to widen their technical knowledge through
+                    which they could enhance their innovative ideas by effectively accessing all available technical
+                    resources found inside the campus.
+                    This campus provides a great support to technical education by bringing in a number of well
+                    experienced experts from various disciplines as staff members. Most of the staff members here, being
+                    doctoral holders in their relative fields, are packed with information so that the student’s thirst
+                    for research is easily quenched.</p>
             </div>
             <div class="rank" id="accredit">
                 <p class="rank-tag">Accreditation</p>
@@ -25,7 +34,29 @@
                 <p class="campus-container">383rd Rank</p>
             </div>
         </div>
-    
+        <div class="right">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{{asset('home/img/viksit.jpeg')}}" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{asset('home/img/ucet_csb1.jpg')}}" class="d-block w-100" alt="...">
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </div>
     <script>
         window.onload = function () {
@@ -50,13 +81,15 @@
         <a href="/telephone" target="_blank" class="Telephone"><i class="fa fa-phone"> </i></a>
     </div>
     <div class="announcement">
-        <div class="head"><span class="announce-head"><a href="/announcements">Announcements</a></span>
+        <div class="head "><span class="announce-head"><a href="/announcements"
+                    class="text-decoration-none text-dark">Announcements</a></span>
         </div>
         <div class="data">
             <marquee width="100%" direction="left" height="30px" scrolldelay="100" behavior="scroll">
             </marquee>
         </div>
-        <div class="tail"><span class="announce-head"><a href="/announcements">View more</a></span></div>
+        <div class="tail"><span class="announce-head"><a href="/announcements"
+                    class="text-decoration-none text-dark">View more</a></span></div>
         <div class="tail-more"><span class="drop-arrow"></span></div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -122,7 +155,15 @@
                 <div class="deanQuote">
                     <span>
                         <blockquote class="deanQuoteContent">
-                            Engineering is not just a degree, but a way of thinking. Even though the number of Engineers in India has proliferated over recent years, the demand for good engineers has remained constant. The first step of being a successful engineer is to have a systematic and efficient learning. It is very important for a student to understand the fundamentals and basic principles of engineering. There is no more important mission for an engineering college than the preparation of its graduates for their careers. At University College of Engineering, Tindivanam, we’re taking on that challenge by broadening the education of our students. We master the technical aspects of engineering at the curriculum’s core and likely add new dimensions that will better prepare the students for the world of today and tomorrow
+                            Engineering is not just a degree, but a way of thinking. Even though the number of Engineers
+                            in India has proliferated over recent years, the demand for good engineers has remained
+                            constant. The first step of being a successful engineer is to have a systematic and
+                            efficient learning. It is very important for a student to understand the fundamentals and
+                            basic principles of engineering. There is no more important mission for an engineering
+                            college than the preparation of its graduates for their careers. At University College of
+                            Engineering, Tindivanam, we’re taking on that challenge by broadening the education of our
+                            students. We master the technical aspects of engineering at the curriculum’s core and likely
+                            add new dimensions that will better prepare the students for the world of today and tomorrow
                         </blockquote>
                     </span>
                     <span></span>
@@ -179,7 +220,9 @@
                 <div class="body">
                     <div>
                         The vision of Anna University is to be a
-                        We at UCET will impart futuristic technical education and instil high patterns of discipline through our dedicated staff, who shall set global standards, making our students technologically superior and ethically strong, who in turn shall improve the quality of life of the human race.
+                        We at UCET will impart futuristic technical education and instil high patterns of discipline
+                        through our dedicated staff, who shall set global standards, making our students technologically
+                        superior and ethically strong, who in turn shall improve the quality of life of the human race.
                     </div>
                 </div>
             </div>
@@ -190,8 +233,11 @@
                 <div class="vheading">Mission</div>
                 <div class="body">
                     <div>
-                Our mission is to educate students from all over India, including those from the local and rural areas, so they become enlightened individuals, improving the living standards of their families, industry and society. We will provide individual attention, world-class quality education and take care of character building.
-                </div>
+                        Our mission is to educate students from all over India, including those from the local and rural
+                        areas, so they become enlightened individuals, improving the living standards of their families,
+                        industry and society. We will provide individual attention, world-class quality education and
+                        take care of character building.
+                    </div>
                 </div>
 
                 <div class="login-container open">
@@ -207,7 +253,7 @@
             <div class="dept-card noselect"
                 onclick="window.open('https://www.auegov.ac.in/Department/aerospace', '_blank')">
                 <div class="svg-container" style="background-color: #9848FF">
-                <i class="fas fa-hard-hat"></i>
+                    <i class="fas fa-hard-hat"></i>
                 </div>
                 <div class="details">
                     <div class="dept-name">Civil Engineering</div>
@@ -216,7 +262,7 @@
             </div>
             <div class="dept-card noselect" onclick="window.open('https://www.auegov.ac.in/Department/auto', '_blank')">
                 <div class="svg-container" style="background-color: red">
-                <i class="fas fa-laptop"></i>
+                    <i class="fas fa-laptop"></i>
                 </div>
                 <div class="details">
                     <div class="dept-name">Computer Science and Engineering</div>
@@ -226,7 +272,7 @@
             <div class="dept-card noselect"
                 onclick="window.open('https://www.auegov.ac.in/Department/elect', '_blank')">
                 <div class="svg-container" style="background-color: #F94C10">
-                <i class="fas fa-microchip"></i>
+                    <i class="fas fa-microchip"></i>
                 </div>
                 <div class="details">
                     <div class="dept-name">Electronics and Communication <br> Engineering</div>
@@ -236,7 +282,7 @@
             <div class="dept-card noselect"
                 onclick="window.open('https://www.auegov.ac.in/Department/instru', '_blank')">
                 <div class="svg-container" style="background-color: #F31559">
-                <i class="fas fa-code"></i>
+                    <i class="fas fa-code"></i>
                 </div>
                 <div class="details">
                     <div class="dept-name">Information Technology</div>
@@ -245,16 +291,16 @@
             </div>
             <div class="dept-card noselect" onclick="window.open('https://www.auegov.ac.in/Department/prod', '_blank')">
                 <div class="svg-container" style="background-color: #F8DE22">
-                <i class="fas fa-atom"></i>
+                    <i class="fas fa-atom"></i>
                 </div>
                 <div class="details">
                     <div class="dept-name">Science and Humanities</div>
                     <div class="description">Established - 2008</div>
                 </div>
             </div>
-            
-            
-            
+
+
+
         </div>
     </div>
     <div class="staggered-cards-container noselect">
@@ -262,7 +308,7 @@
             <h1>Centres</h1>
         </div>
         <div class="staggered-cards-wrapper">
-            
+
             <div class="card" onclick="window.open('https://library.annauniv.edu/mit_index.php', '_blank')">
                 <img src="{{asset('home/img/library.jpg')}}" />
                 <div class="content">
@@ -290,7 +336,7 @@
         </div>
     </div>
 
-    <a href="http://clubs.mitindia.edu/" target="_blank">
+    <a href="http://clubs.mitindia.edu/" target="_blank" class="text-decoration-none text-dark">
         <div class="categories-container noselect">
             <div class="description">
                 <h1>Facilities</h1>
