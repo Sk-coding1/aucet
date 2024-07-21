@@ -64,26 +64,25 @@
                 <ul>
                     <li><a class='nav-link scrollto home' href='/Department/it'>Home</a></li>
 
-                    <!-- <li class='dropdown'><a class='academic' href='#'><span>Academic</span><i class='bi bi-chevron-down'></i></a>
+                    <li class='dropdown'><a class='academic' href='#'><span>Academic</span><i class='bi bi-chevron-down'></i></a>
                         <ul>
                             <li><a class='coursesoffered' href='https://www.auegov.ac.in/Department/aerospace/coursesoffered'>Courses Offered</a></li>
                             <li><a class='academicschedule' href='https://www.auegov.ac.in/Department/aerospace/academicschedule'>Academic Schedule</a></li>
                         </ul>
-                    </li> -->
+                    </li>
 
                     <li class='dropdown'><a class='people' href='#'><span>People</span><i class='bi bi-chevron-down'></i></a>
                         <ul>
                             <li><a class='teaching' href='/Department/it/teaching-staff'>Teaching</a></li>
                             <li><a class='nonteaching' href='/Department/it/non-teaching'>Non-Teaching</a></li>
-                            <!-- <li><a class='scholars' href='https://www.auegov.ac.in/Department/aerospace/scholars'>Scholars</a></li>
-                            <li><a class='pgstudents' href='https://www.auegov.ac.in/Department/aerospace/pgstudents'>PG Students</a></li>
-                            <li><a class='ugstudents' href='https://www.auegov.ac.in/Department/aerospace/ugstudents'>UG Students</a></li>
+                            <li><a class='scholars' href='/Department/it/scholars'>Scholars</a></li>
+                            <li><a class='ugstudents' href='/Department/it/ugstudents'>UG Students</a></li>
                             <li><a class='notablealumni' href='https://www.auegov.ac.in/Department/aerospace/notablealumni'>Notable Alumni</a></li>
-                            <li><a class='formeracademics' href='https://www.auegov.ac.in/Department/aerospace/formeracademics'>Former Academics</a></li> -->
+                            <li><a class='formeracademics' href='https://www.auegov.ac.in/Department/aerospace/formeracademics'>Former Academics</a></li>
                         </ul>
                     </li>
 
-                 <!--    <li class='dropdown'><a class='research' href='#'><span>Research</span><i class='bi bi-chevron-down'></i></a>
+                    <li class='dropdown'><a class='research' href='#'><span>Research</span><i class='bi bi-chevron-down'></i></a>
                         <ul>
                             <li class='dropdown'><a class='awarded' href='#'><span>Awarded</span><i class='bi bi-chevron-right'></i></a>
                                 <ul>
@@ -100,7 +99,7 @@
                             <li><a class='consultancy' href='https://www.auegov.ac.in/Department/aerospace/consultancy'>Consultancy</a></li>
                             <li><a class='patents' href='https://www.auegov.ac.in/Department/aerospace/patents'>Patents</a></li>
                         </ul>
-                    </li> -->
+                    </li>
 
                     <li><a class='deptfacilities' href='/Department/it/facilities'>Facilities</a></li>
                     <li class='dropdown'><a class='achievements' href='#'><span>Achievements</span><i class='bi bi-chevron-down'></i></a>
