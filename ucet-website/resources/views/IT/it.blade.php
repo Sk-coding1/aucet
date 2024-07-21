@@ -71,18 +71,6 @@
                             <div class="testimonial-item">
                                 <div class="profile mt-auto">
                                     <img src="{{asset('department/img/profile.jpg')}}" class="testimonial-img">
-                                    <h3>Avionics</h3>
-                                </div>
-                                <p>
-                                    Avionics encompasses the electronic systems used in aircraft for communication, navigation, flight management, monitoring, and control. It plays a critical role in modern aviation, enabling safer, more efficient, and more capable flight operations. Avionics technology continues to advance rapidly, driven by developments in electronics, software, and connectivity. Modern avionics systems feature increased integration, automation, and connectivity, leading to improved safety, efficiency, and functionality in both commercial and military aircraft. Additionally, avionics play a crucial role in the emerging field of unmanned aerial vehicles (UAVs) and urban air mobility (UAM), enabling autonomous and remotely piloted flight operations. </p>
-                                <a onclick="ReadMore('AEROSPACE~2~3')" class="read-more cpoint"><span>Read
-                                        More</span> <i class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="profile mt-auto">
-                                    <img src="{{asset('department/img/profile.jpg')}}" class="testimonial-img">
                                     <h3>Composites</h3>
                                 </div>
                                 <p>
@@ -100,18 +88,6 @@
                                 <p>
                                     In both aeronautics and aerospace, optimizing combustion processes is crucial for enhancing engine efficiency, reducing fuel consumption, and improving overall performance. Engineers continually research and develop combustion technologies to make engines more powerful, reliable, and environmentally friendly, while also exploring alternative fuels and propulsion methods to meet the demands of aviation and space exploration. </p>
                                 <a onclick="ReadMore('AEROSPACE~2~7')" class="read-more cpoint"><span>Read
-                                        More</span> <i class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="profile mt-auto">
-                                    <img src="{{asset('department/img/profile.jpg')}}" class="testimonial-img">
-                                    <h3>Propulsion</h3>
-                                </div>
-                                <p>
-                                    Propulsion refers to the means by which a vehicle is propelled forward. In the context of aeronautics and aerospace, propulsion systems are essential for generating the thrust necessary to overcome drag and propel aircraft and spacecraft through the air or space. There are various types of propulsion systems used in aviation and space exploration, each with its own principles of operation and applications. Each propulsion system has its advantages and limitations, and the choice of propulsion depends on factors such as the intended application, vehicle design, performance requirements, and operating environment. Engineers continue to innovate and develop new propulsion technologies to improve efficiency, reduce environmental impact, and enable advanced capabilities in aviation and space exploration. </p>
-                                <a onclick="ReadMore('AEROSPACE~2~8')" class="read-more cpoint"><span>Read
                                         More</span> <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
@@ -262,7 +238,7 @@
                             <img class="img-fluid" src="{{asset('department/img/profile.jpg')}}">
                             <div class="card-body px-xl-5 px-md-3 pt-0">
                                 <div class="d-flex flex-column align-items-center hod-name-bg" style="margin-top:-2.2rem;">
-                                    <h5 class="mb-1 text-center">Dr. K.M. Parammasivam
+                                    <h5 class="mb-1 text-center">Mr.S.Milton Ganeshan
                                     </h5>
                                     <p class="mb-1">PROFESSOR</p>
                                 </div>
@@ -270,10 +246,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                        <p class="fst-italic"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Professor K.M. Parammasivam, Head of the Aerospace Department, it is my pleasure to extend a warm greeting to all visitors to our website. Here, you will find a glimpse into the dynamic world of aerospace engineering and exploration that we are privileged to be a part of.
-                            Our department is more than just a collection of classrooms and laboratories; it is a vibrant community of scholars, researchers, and innovators united by a shared passion for aerospace. Whether you are a prospective student, a curious enthusiast, or a seasoned professional, we invite you to explore all that our department has to offer.
-                            At the Aerospace Department, we are dedicated to excellence in both education and research. Our faculty members are renowned experts in their fields, bringing a wealth of knowledge and experience to the classroom and beyond. Through their mentorship, our students are empowered to push the boundaries of what is possible and embark on journeys of discovery that will shape the future of aerospace technology.
-                            Our research endeavors span a wide range of areas, from fundamental studies in aerodynamics and propulsion to the development of cutting-edge aerospace systems and technologies. Whether it's exploring the outer reaches of our atmosphere or designing the aircraft of tomorrow, our researchers are at the forefront of innovation, driving advancements that have the potential to revolutionize the way we travel and explore the cosmos. </p>
+                        <p class="fst-italic" style="text-indent: 60px;">Our department has a total of 180 students, six staff members, one technical assistant and two lab assistants. Two staff members are Doctorate holders and three are pursuing their doctoral degrees. Our department laboratory has 60 computers in intranet usage, a high-speed Internet Connection and necessary UPS facility to provide a conducive technical learning environment. Events such as guest lectures and symposiums are conducted every year to help students to keep abreast of the latest advancements in the field of Information and Communication technologies. Our staff members assist the students with the quality engineering education and encouraging them to actively participate in the events in and out of our institution. Our primary goal is to understand the students and bring out their hidden talents to nurture them with the relevant technical knowledge to pursue their ambitious goals for the benefit of the student and the humankind. </p>
                     </div>
                 </div>
             </div>
@@ -348,17 +321,9 @@
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="https://www.auegov.ac.in/Department/aerospace/gallery" class="img-bg d-flex align-items-end" style="background-image:url('{{asset("department/img/profile.jpg")}}')">
-                                        <div class="img-bg-inner">
-                                            <h2> </h2>
-                                            <!-- <p> </p> -->
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
                                     <a href="https://www.auegov.ac.in/Department/aerospace/gallery" class="img-bg d-flex align-items-end" style="background-image: url('{{asset("department/img/profile.jpg")}}')">
                                         <div class="img-bg-inner">
-                                            <h2>Department of Aerospace Engineering</h2>
+                                            <h2>Department of Information Technology</h2>
                                             <!-- <p> </p> -->
                                         </div>
                                     </a>
