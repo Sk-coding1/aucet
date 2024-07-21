@@ -1277,12 +1277,12 @@ h6 {
     padding-left: 40px;
     color: #fff;
 }
-.card_userdetails h2,p{
+/*.card_userdetails h2,p{
     font-family: 'Playball', cursive !important;
 
-}
+}*/
 .card_userdetails h2 {
-
+    font-family: 'Playball', cursive !important;
     color: #fff;
     margin: 0;
 }
@@ -1292,6 +1292,7 @@ h6 {
     line-height: 19px;
     color: #fff;
     margin: 8px 30px 0 0;
+    font-family: 'Playball', cursive !important;
 }
 
 @media (max-width: 1199px) {
