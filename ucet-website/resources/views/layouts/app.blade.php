@@ -114,10 +114,10 @@
                                 <li class="menu-items"><a target="_blank"
                                         href="https://www.auegov.ac.in/Department/elect">Electronics and Communication Engineering</a>
                                 </li>
-                                <li class="menu-items"><a target="_blank"
-                                        href="https://www.auegov.ac.in/Department/instru">Information Technology</a></li>
+                                <li class="menu-items"><a
+                                        href="/it">Information Technology</a></li>
                                 
-                                <li class="menu-items"><a target="_blank"
+                                <li class="menu-items"><a
                                         href="https://www.auegov.ac.in/Department/instru">Science and Humanities</a></li>
                             </ul>
                         </li>
