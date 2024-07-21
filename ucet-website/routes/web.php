@@ -21,3 +21,8 @@ Route::get('Department/it/non-teaching',[SiteController::class,'nonTeaching']);
 Route::get('Department/it/facilities',[SiteController::class,'facilities']);
 Route::get('Department/it/scholars',[SiteController::class,'scholars']);
 Route::get('Department/it/ugstudents',[SiteController::class,'ugStudents']);
+/* Administrator Page */
+Route::get('/administration/hods',[SiteController::class,'hod']);
+Route::get('/administration/dean_office',[SiteController::class,'dean_office']);
+Route::get('/administration/former_deans',[SiteController::class,'former_deans']);
+

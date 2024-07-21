@@ -58,7 +58,7 @@
                     <a href="https://www.auegov.ac.in/Department/aerospace/announcements">Payment of Semester Fee for University Departments - All higher semesters for academic session ODD SEMESTER 2024 - 2025 (Last Date:25-Jul-2024)</a>
                     <a href="https://www.auegov.ac.in/Department/aerospace/announcements">FLIGHT'24</a>
                 </p>
-            </div>
+            </div> 
             <!-- .navbar -->
             <nav id="navbar" class="navbar">
                 <ul>

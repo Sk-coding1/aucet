@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
 </head>
 <html>
 <div id="root">
@@ -42,27 +42,11 @@
                     </div>
                 </div>
                 
-                    <!-- Pop up Modal -->
-                <div class="modal-content noselect">
-                    <div class="modal-title"> Platinum Jubilee Celebration on 18 to 20, July 2024 in MIT Campus</div>
-                    <!--<img class="modal-image" src="src/assets/MITGate75New.jpg" alt="Modal Popup" class="src"> -->
-                    <img class="modal-image" src="src/assets/MITGate75_1.JPG" alt="Modal Popup" class="src">
-                    <!--  <img class="modal-image" src="src/assets/MITGate75_2.JPG" alt="Modal Popup" class="src"> -->
-                </div> 
+                   
             </div>
         </div>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                var modalContainer = document.querySelector('.modal-container');
-                modalContainer.classList.remove('hidden');
-            });
-
-            function hideModal() {
-                var modalContainer = document.querySelector('.modal-container');
-                modalContainer.classList.add('hidden');
-            }
-        </script>
+    
         <header class="header-container noselect">
             <div class="header-top">
                 <a class="active" href="/" aria-current="page">
@@ -115,7 +99,7 @@
                                         href="https://www.auegov.ac.in/Department/elect">Electronics and Communication Engineering</a>
                                 </li>
                                 <li class="menu-items"><a
-                                        href="Department/it">Information Technology</a></li>
+                                        href="/Department/it">Information Technology</a></li>
                                 
                                 <li class="menu-items"><a
                                         href="https://www.auegov.ac.in/Department/instru">Science and Humanities</a></li>
@@ -131,19 +115,19 @@
                                 </svg>
                             </button>
                             <ul class="dropdown  ">
-                                <li class="menu-items"><a class="" href="/src/assets/Organogram.pdf">Organogram</a></li>
+                                <li class="menu-items"><a class="" target="_blank" href="{{asset('administration/files/Organogram.pdf')}}">Organogram</a></li>
                                 <li class="menu-items"><a class="" target="_blank"
                                         href="https://www.annauniv.edu/#vcmsg">Vice Chancellor</a></li>
                                 <li class="menu-items"><a class="" target="_blank"
                                         href="https://www.annauniv.edu/administration.php">Registrar</a></li>
                                 <li class="menu-items"><a class="" target="_blank"
                                         href="https://vidwan.inflibnet.ac.in/profile/117989">Dean</a></li>
-                                <li class="menu-items"><a class="" href="/hods">Heads of the Departments</a></li>
+                                <li class="menu-items"><a class="" href="/administration/hods">Heads of the Departments</a></li>
                                 <li class="menu-items"><a class="" href="/directors">Centres Directors</a></li>
-                                <li class="menu-items"><a class="" href="/administration/deanoffice">Dean Office
+                                <li class="menu-items"><a class="" href="/administration/dean_office">Dean Office
                                         Staff</a></li>
                                 <li class="menu-items"><a class=""
-                                        href="/src/components/Formerdean/formerdean.php">Former Directors/Deans</a></li>
+                                        href="{{asset('/administration/former_deans')}}">Former Directors/Deans</a></li>
                             </ul>
                         </li>
                         <li class="menu-items">
@@ -194,19 +178,19 @@
                                         </svg>
                                     </button>
                                     <ul class="dropdown dropdown-submenu ">
-                                        <li class="menu-items"><a class="" href="https://www.au-kbc.org/">AU-KBC
+                                        <li class="menu-items"><a class="" href="/">AU-KBC
                                                 Research Centre</a></li>
-                                        <li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">Centre
+                                        <li class="menu-items"><a class="" href="/">Centre
                                                 for Aerospace Research</a></li>
-                                        <li class="menu-items"><a class="" href="http://www.ciot.mitindia.edu/">Centre
+                                        <li class="menu-items"><a class="" href="/">Centre
                                                 for Internet of Things</a></li>
                                         <li class="menu-items"><a class=""
-                                                href="https://mitindia.edu/en/research-centres/mit_scoe">Siemens Centre
+                                                href="/">Siemens Centre
                                                 of Excellence</a></li>
                                         <li class="menu-items"><a class=""
-                                                href="https://mitindia.edu/en/research-centres/ceat_mit">Centre for
+                                                href="/">Centre for
                                                 Excellence in Automobile Technology</a></li>
-                                        <li class="menu-items"><a class="" href="https://cra.mitindia.edu/">Centre for
+                                        <li class="menu-items"><a class="" href="/">Centre for
                                                 Robotics and Automation </a></li>
                                     </ul>
                                 </li>
@@ -457,5 +441,5 @@
         </section>
     </section>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 </html>
