@@ -19,3 +19,5 @@ Route::get('Department/it',[SiteController::class,'it']);
 Route::get('Department/it/teaching-staff',[SiteController::class,'teaching']);
 Route::get('Department/it/non-teaching',[SiteController::class,'nonTeaching']);
 Route::get('Department/it/facilities',[SiteController::class,'facilities']);
+Route::get('Department/it/scholars',[SiteController::class,'scholars']);
+Route::get('Department/it/ugstudents',[SiteController::class,'ugStudents']);

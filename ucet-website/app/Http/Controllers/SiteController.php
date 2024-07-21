@@ -14,12 +14,18 @@ class SiteController extends Controller
         return view('IT/it');
     }
     public function teaching(){
-        return view('IT/teaching');
+        return view('IT/People/teaching');
     }
     public function nonTeaching(){
-        return view('IT/nonTeaching');
+        return view('IT/People/nonTeaching');
     }
     public function facilities(){
         return view('IT/facilities');
+    }
+    public function scholars(){
+        return view('IT/People/scholars');
+    }
+    public function ugStudents(){
+        return view('IT/People/ugStudents');
     }
 }
