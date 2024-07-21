@@ -99,7 +99,7 @@
                                         href="https://www.auegov.ac.in/Department/elect">Electronics and Communication Engineering</a>
                                 </li>
                                 <li class="menu-items"><a
-                                        href="Department/it">Information Technology</a></li>
+                                        href="/Department/it">Information Technology</a></li>
                                 
                                 <li class="menu-items"><a
                                         href="https://www.auegov.ac.in/Department/instru">Science and Humanities</a></li>
@@ -115,19 +115,19 @@
                                 </svg>
                             </button>
                             <ul class="dropdown  ">
-                                <li class="menu-items"><a class="" href="/src/assets/Organogram.pdf">Organogram</a></li>
+                                <li class="menu-items"><a class="" target="_blank" href="{{asset('administration/files/Organogram.pdf')}}">Organogram</a></li>
                                 <li class="menu-items"><a class="" target="_blank"
                                         href="https://www.annauniv.edu/#vcmsg">Vice Chancellor</a></li>
                                 <li class="menu-items"><a class="" target="_blank"
                                         href="https://www.annauniv.edu/administration.php">Registrar</a></li>
                                 <li class="menu-items"><a class="" target="_blank"
                                         href="https://vidwan.inflibnet.ac.in/profile/117989">Dean</a></li>
-                                <li class="menu-items"><a class="" href="/hods">Heads of the Departments</a></li>
+                                <li class="menu-items"><a class="" href="/administration/hods">Heads of the Departments</a></li>
                                 <li class="menu-items"><a class="" href="/directors">Centres Directors</a></li>
-                                <li class="menu-items"><a class="" href="/administration/deanoffice">Dean Office
+                                <li class="menu-items"><a class="" href="/administration/dean_office">Dean Office
                                         Staff</a></li>
                                 <li class="menu-items"><a class=""
-                                        href="/src/components/Formerdean/formerdean.php">Former Directors/Deans</a></li>
+                                        href="{{asset('/administration/former_deans')}}">Former Directors/Deans</a></li>
                             </ul>
                         </li>
                         <li class="menu-items">
@@ -178,19 +178,19 @@
                                         </svg>
                                     </button>
                                     <ul class="dropdown dropdown-submenu ">
-                                        <li class="menu-items"><a class="" href="https://www.au-kbc.org/">AU-KBC
+                                        <li class="menu-items"><a class="" href="/">AU-KBC
                                                 Research Centre</a></li>
-                                        <li class="menu-items"><a class="" href="http://www.casr.mitindia.edu/">Centre
+                                        <li class="menu-items"><a class="" href="/">Centre
                                                 for Aerospace Research</a></li>
-                                        <li class="menu-items"><a class="" href="http://www.ciot.mitindia.edu/">Centre
+                                        <li class="menu-items"><a class="" href="/">Centre
                                                 for Internet of Things</a></li>
                                         <li class="menu-items"><a class=""
-                                                href="https://mitindia.edu/en/research-centres/mit_scoe">Siemens Centre
+                                                href="/">Siemens Centre
                                                 of Excellence</a></li>
                                         <li class="menu-items"><a class=""
-                                                href="https://mitindia.edu/en/research-centres/ceat_mit">Centre for
+                                                href="/">Centre for
                                                 Excellence in Automobile Technology</a></li>
-                                        <li class="menu-items"><a class="" href="https://cra.mitindia.edu/">Centre for
+                                        <li class="menu-items"><a class="" href="/">Centre for
                                                 Robotics and Automation </a></li>
                                     </ul>
                                 </li>

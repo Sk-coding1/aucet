@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class SiteController extends Controller
 {
     public function index(){
-        return view('index');
+        return view('home/index');
     }
 
     public function it(){
@@ -21,5 +21,17 @@ class SiteController extends Controller
     }
     public function facilities(){
         return view('IT/facilities');
+    }
+
+    public function hod(){
+        return view('administration/hod');
+    }
+
+    public function dean_office(){
+        return view('administration/dean_office');
+    }
+
+    public function former_deans(){
+        return view('administration/former_deans');
     }
 }
