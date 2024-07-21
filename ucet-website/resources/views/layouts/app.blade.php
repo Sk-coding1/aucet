@@ -99,7 +99,7 @@
                                         href="https://www.auegov.ac.in/Department/elect">Electronics and Communication Engineering</a>
                                 </li>
                                 <li class="menu-items"><a
-                                        href="/it">Information Technology</a></li>
+                                        href="Department/it">Information Technology</a></li>
                                 
                                 <li class="menu-items"><a
                                         href="https://www.auegov.ac.in/Department/instru">Science and Humanities</a></li>

@@ -9,8 +9,7 @@
     <meta name="keywords" content="Department">
     <title>Information Technology</title>
     <!-- Favicons -->
-    <link href="https://www.auegov.ac.in/Department/public/assets/img/favicon.png" rel="icon">
-    <link href="https://www.auegov.ac.in/Department/public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{asset('home/img/anna_univ_logo.png')}}" rel="icon">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <!-- Vendor CSS Files -->
@@ -33,7 +32,7 @@
     <section id="topbar" class="d-flex align-items-center">
         <div class="container d-flex justify-content-between">
             <div class="topbar-logo d-md-flex align-items-center">
-                <a href="https://www.auegov.ac.in/Department/aerospace"><img src="https://www.auegov.ac.in/Department/public/assets/img/aulogo.png" alt="Logo"></a>
+                <a href="/it"><img src="{{asset('home/img/anna_logo_grey.png')}}" alt="Logo"></a>
                 <div class="logo-text">
                     <h2 class="logotxt">Information Technology</h2>
                     <h4 class="sublogotxt">Anna University</h4>
@@ -63,25 +62,28 @@
             <!-- .navbar -->
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class='nav-link scrollto home' href='https://www.auegov.ac.in/Department/aerospace'>Home</a></li>
-                    <li class='dropdown'><a class='academic' href='#'><span>Academic</span><i class='bi bi-chevron-down'></i></a>
+                    <li><a class='nav-link scrollto home' href='/Department/it'>Home</a></li>
+
+                    <!-- <li class='dropdown'><a class='academic' href='#'><span>Academic</span><i class='bi bi-chevron-down'></i></a>
                         <ul>
                             <li><a class='coursesoffered' href='https://www.auegov.ac.in/Department/aerospace/coursesoffered'>Courses Offered</a></li>
                             <li><a class='academicschedule' href='https://www.auegov.ac.in/Department/aerospace/academicschedule'>Academic Schedule</a></li>
                         </ul>
-                    </li>
+                    </li> -->
+
                     <li class='dropdown'><a class='people' href='#'><span>People</span><i class='bi bi-chevron-down'></i></a>
                         <ul>
-                            <li><a class='teaching' href='https://www.auegov.ac.in/Department/aerospace/teaching'>Teaching</a></li>
-                            <li><a class='nonteaching' href='https://www.auegov.ac.in/Department/aerospace/nonteaching'>Non-Teaching</a></li>
-                            <li><a class='scholars' href='https://www.auegov.ac.in/Department/aerospace/scholars'>Scholars</a></li>
+                            <li><a class='teaching' href='/Department/it/teaching-staff'>Teaching</a></li>
+                            <li><a class='nonteaching' href='/Department/it/non-teaching'>Non-Teaching</a></li>
+                            <!-- <li><a class='scholars' href='https://www.auegov.ac.in/Department/aerospace/scholars'>Scholars</a></li>
                             <li><a class='pgstudents' href='https://www.auegov.ac.in/Department/aerospace/pgstudents'>PG Students</a></li>
                             <li><a class='ugstudents' href='https://www.auegov.ac.in/Department/aerospace/ugstudents'>UG Students</a></li>
                             <li><a class='notablealumni' href='https://www.auegov.ac.in/Department/aerospace/notablealumni'>Notable Alumni</a></li>
-                            <li><a class='formeracademics' href='https://www.auegov.ac.in/Department/aerospace/formeracademics'>Former Academics</a></li>
+                            <li><a class='formeracademics' href='https://www.auegov.ac.in/Department/aerospace/formeracademics'>Former Academics</a></li> -->
                         </ul>
                     </li>
-                    <li class='dropdown'><a class='research' href='#'><span>Research</span><i class='bi bi-chevron-down'></i></a>
+
+                 <!--    <li class='dropdown'><a class='research' href='#'><span>Research</span><i class='bi bi-chevron-down'></i></a>
                         <ul>
                             <li class='dropdown'><a class='awarded' href='#'><span>Awarded</span><i class='bi bi-chevron-right'></i></a>
                                 <ul>
@@ -98,17 +100,18 @@
                             <li><a class='consultancy' href='https://www.auegov.ac.in/Department/aerospace/consultancy'>Consultancy</a></li>
                             <li><a class='patents' href='https://www.auegov.ac.in/Department/aerospace/patents'>Patents</a></li>
                         </ul>
-                    </li>
-                    <li><a class='deptfacilities' href='https://www.auegov.ac.in/Department/aerospace/deptfacilities'>Facilities</a></li>
+                    </li> -->
+
+                    <li><a class='deptfacilities' href='/Department/it/facilities'>Facilities</a></li>
                     <li class='dropdown'><a class='achievements' href='#'><span>Achievements</span><i class='bi bi-chevron-down'></i></a>
                         <ul>
-                            <li><a class='placement' href='https://www.auegov.ac.in/Department/aerospace/placement'>Placement</a></li>
+                            <li><a class='placement' href='#'>Placement</a></li>
                         </ul>
                     </li>
                     <li class='dropdown'><a class='others' href='#'><span>Others</span><i class='bi bi-chevron-down'></i></a>
                         <ul>
-                            <li><a class='gallery' href='https://www.auegov.ac.in/Department/aerospace/gallery'>Photo Gallery</a></li>
-                            <li><a class='videogallery' href='https://www.auegov.ac.in/Department/aerospace/videogallery'>Video Gallery</a></li>
+                            <li><a class='gallery' href='#'>Photo Gallery</a></li>
+                            <li><a class='videogallery' href='#'>Video Gallery</a></li>
                         </ul>
                     </li>
                 </ul>
