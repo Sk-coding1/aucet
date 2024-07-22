@@ -91,18 +91,18 @@
                             </button>
                             <ul class="dropdown">
                                 <li class="menu-items"><a target="_blank"
-                                        href="https://www.auegov.ac.in/Department/aerospace">Civil
+                                        href="">Civil
                                         Engineering</a></li>
                                 <li class="menu-items"><a target="_blank"
-                                        href="https://www.auegov.ac.in/Department/auto">Computer Science and Engineering</a></li>
+                                        href="/Department/cse">Computer Science and Engineering</a></li>
                                 <li class="menu-items"><a target="_blank"
-                                        href="https://www.auegov.ac.in/Department/elect">Electronics and Communication Engineering</a>
+                                        href="">Electronics and Communication Engineering</a>
                                 </li>
-                                <li class="menu-items"><a
+                                <li class="menu-items"><a target="_blank"
                                         href="/Department/it">Information Technology</a></li>
                                 
-                                <li class="menu-items"><a
-                                        href="https://www.auegov.ac.in/Department/instru">Science and Humanities</a></li>
+                                <li class="menu-items"><a target="_blank"
+                                        href="">Science and Humanities</a></li>
                             </ul>
                         </li>
                         <li class="menu-items">

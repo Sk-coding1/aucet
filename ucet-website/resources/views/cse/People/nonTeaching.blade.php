@@ -1,4 +1,5 @@
 @extends('layouts.department')
+@section('title', 'Computer Science and Engineering')
 @section('dept')
 <!-- ======= NonTeaching Section ======= -->
 <section id="NonTeaching" class="NonTeaching section-bg">
@@ -50,4 +51,12 @@
     </div>
     </div>
 </section><!-- End NonTeaching Section -->
+@endsection
+@section('nav-active')
+<script>
+$(document).ready(function() { 
+    $(".people").addClass("active");
+    $(".nonteaching").addClass("active");
+});
+</script>
 @endsection
