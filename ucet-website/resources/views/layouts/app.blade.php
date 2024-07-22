@@ -3,7 +3,7 @@
 <head>
 <link rel="icon" type="image/x-icon" href="{{asset('home/img/anna_univ_logo.png')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University College of Enginnering Tindivanam</title>
+    <title>@yield('title')</title>
     <link rel="stylesheet" href="{{asset('home/css/index.css')}}">
     <link rel="stylesheet" href="{{asset('home/css/app.css')}}">
     <link rel="stylesheet" href="{{asset('home/css/header.css')}}">
@@ -75,7 +75,7 @@
                                         Home</a></li>
                                 <li class="menu-items"><a class="" href="/">UCET Home</a></li>
                                 <li class="menu-items"><a class="" href="/about">About UCET</a></li>
-                                <li class="menu-items"><a class="" href="/src/assets/CoreValues.pdf">Core Values</a>
+                                <li class="menu-items"><a class="" href="{{asset('home/res/CoreValues.pdf')}}" target="_blank" >Core Values</a>
                                 </li>
                                 <li class="menu-items"><a class="" href="/policies">Policies</a></li>
                             </ul>

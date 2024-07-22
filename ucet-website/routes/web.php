@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/* Home Page */
 Route::get('/',[SiteController::class,'index']);
+Route::get('/policies',[SiteController::class,'policies']);
 
 Route::prefix('/Department/{department}')->group(function(){
 	Route::get('/',[SiteController::class,'dept']);

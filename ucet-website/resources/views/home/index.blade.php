@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title','University College of Engineering Tindivanam')
+
 @section('main')
 <div>
     <div class="banner noselect">

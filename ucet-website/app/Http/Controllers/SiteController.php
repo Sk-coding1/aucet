@@ -6,8 +6,13 @@ use Illuminate\Http\Request;
 
 class SiteController extends Controller
 {
+    /* Home Page */
     public function index(){
         return view('home/index');
+    }
+
+    public function policies(){
+        return view('home/policies');
     }
 
     public function hod(){
