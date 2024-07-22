@@ -2,7 +2,7 @@
 @section('main')
 <div>
     <div class="dept-container">
-        <div class="title">Departments</div>
+        <div class="title">Head of the Departments</div>
         <div class="dept-wrapper">
             <div class="dept-card noselect"
                 onclick="window.open('https://www.auegov.ac.in/Department/aerospace', '_blank')">
