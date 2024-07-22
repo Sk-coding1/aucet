@@ -1,5 +1,5 @@
 @extends('layouts.department')
-@section('title', 'Information Technology')
+@section('title', 'Computer Science and Engineering')
 @section('dept')
 
 <!-- ======= Scholars Section ======= -->

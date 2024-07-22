@@ -1,5 +1,5 @@
 @extends('layouts.department')
-@section('title', 'Information Technology')
+@section('title', 'Computer Science and Engineering')
 @section('dept')
 <!-- ======= Teaching Section ======= -->
 <section id="teaching" class="teaching section-bg">
@@ -12,7 +12,7 @@
                 <div class="staff d-flex align-items-start">
                     <div class="pic"><img src="" alt=""></div>
                     <div class="staff-info">
-                        <h4>Dr.R.Shyamala</h4>
+                        <h4>Dr.R.Sanju</h4>
                         <span>Assistant Professor</span>
                         <p>Avionics, Uav Systems, Navigation Guidance and Control, Aerial Images Exploration</p>
                         <div class="social">
