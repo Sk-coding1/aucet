@@ -15,6 +15,11 @@ class SiteController extends Controller
         return view('home/policies');
     }
 
+    public function clubs(){
+        return view("home/clubs");
+    }
+
+    // Administration Page
     public function hod(){
         return view('administration/hod');
     }
@@ -86,6 +91,7 @@ class SiteController extends Controller
     }
 // End of IT
 
-
+//Facilities
+    
 
 }

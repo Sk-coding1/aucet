@@ -206,11 +206,8 @@
                                 </svg>
                             </button>
                             <ul class="dropdown  ">
-                                <li class="menu-items"><a class="" href="https://cc.mitindia.edu/">Dr. Kalam Computing
-                                        Centre</a></li>
                                 <li class="menu-items"><a class=""
                                         href="http://www.placement.mitindia.edu/">Placements</a></li>
-                                <li class="menu-items"><a class="" href="/network">Network</a></li>
                                 <li class="menu-items"><a class="" href="/telephone">Telephone</a></li>
                                 <li class="menu-items"><a class=""
                                         href="http://www.health-centre.mitindia.edu/health_centre/">Health Centre</a>

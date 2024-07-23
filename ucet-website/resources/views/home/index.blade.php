@@ -71,7 +71,7 @@
         };
     </script>
     <div class="sticky-icon">
-        <a href="https://www.youtube.com/channel/UCvR0vYmjwNCmVFyTdSAKvMA/" target="_blank" class="Youtube"><i
+        <a href="https://www.youtube.com/@ucetsocialmedia" target="_blank" class="Youtube"><i
                 class="fab fa-youtube"></i></a>
         <a href="https://www.instagram.com/anna_university.chennai/" target="_blank" class="Instagram"><i
                 class="fab fa-instagram"></i></a>
@@ -338,10 +338,10 @@
         </div>
     </div>
 
-    <a href="http://clubs.mitindia.edu/" target="_blank" class="text-decoration-none text-dark">
+    <a href="/clubs" target="_blank" class="text-decoration-none text-dark">
         <div class="categories-container noselect">
             <div class="description">
-                <h1>Facilities</h1>
+                <h1>Clubs</h1>
             </div>
             <div class="categories-cards-container">
                 <div class="categories-wrapper" id="category-wrapper">

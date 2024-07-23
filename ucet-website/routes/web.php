@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 /* Home Page */
 Route::get('/',[SiteController::class,'index']);
 Route::get('/policies',[SiteController::class,'policies']);
+Route::get('/clubs',[SiteController::class,'clubs']);
 
 Route::prefix('/Department/{department}')->group(function(){
 	Route::get('/',[SiteController::class,'dept']);
@@ -45,8 +46,12 @@ Route::prefix('/Department/{department}')->group(function(){
 
 
 
-/* Administrator Page */
+// Administrator Page 
 Route::get('/administration/hods',[SiteController::class,'hod']);
 Route::get('/administration/dean_office',[SiteController::class,'dean_office']);
 Route::get('/administration/former_deans',[SiteController::class,'former_deans']);
 
+// Facilities Page
+Route::prefix('/facilities')->group(function(){
+	Route::get('/',[SiteController::class,'facilities_index']);
+});
