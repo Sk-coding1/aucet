@@ -91,12 +91,12 @@
                             </button>
                             <ul class="dropdown">
                                 <li class="menu-items"><a target="_blank"
-                                        href="">Civil
+                                        href="/Department/civil">Civil
                                         Engineering</a></li>
                                 <li class="menu-items"><a target="_blank"
                                         href="/Department/cse">Computer Science and Engineering</a></li>
                                 <li class="menu-items"><a target="_blank"
-                                        href="">Electronics and Communication Engineering</a>
+                                        href="/Department/ece">Electronics and Communication Engineering</a>
                                 </li>
                                 <li class="menu-items"><a target="_blank"
                                         href="/Department/it">Information Technology</a></li>
